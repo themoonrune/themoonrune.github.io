@@ -1,3 +1,22 @@
 
+ body {
 
-This is the linked CSS file!
+ 	text-align: center;
+ 	background-color: #a9d179;
+ 	font-family: helvetica;
+
+ }
+
+ h1 {
+    text-align: left;
+ 	color: white;
+ }
+
+ input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: green;
+      color: white;
