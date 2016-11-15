@@ -20,3 +20,36 @@
     input[type="submit"] {
       background: green;
       color: white;
+  }
+
+
+  #social-buttons button {
+
+	color: white;
+	margin: 40px 0px 10px 0px;
+
+	}
+
+.btn-twitter {
+
+	background-color: #00acee;
+
+	border-color: #009ad5;
+
+}
+
+.btn-facebook {
+
+	background-color: #4868ac;
+
+	border-color: #314776;
+
+}
+
+.btn-pinterest {
+
+	background-color: #b62f26;
+
+	border-color: #b62f26;
+
+}
