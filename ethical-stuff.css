@@ -28,7 +28,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
-}
+   }
 
 li {
     float: left;
@@ -79,7 +79,7 @@ li a:hover {
 }
 
 .footer {
-  position: absolute;
+  position: bottom;
   right: 0;
   bottom: 0;
   left: 0;
