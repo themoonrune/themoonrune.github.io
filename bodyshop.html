@@ -43,11 +43,13 @@
    </ul>
    </div>
 
-   <h1>The Body Shop</h1>
+   <h2>The Body Shop</h2>
+   <img src="bodyshop.jpg" style="width:40%;height:228px";
+   align="left">
 
    <button class="accordion">Animal Testing Policy</button>
     <div class="panel">
-    <p>Lorem ipsum...</p>
+    <p>Body Shop do not test on animals...</p>
    </div>
 
     <button class="accordion">Parent Company</button>
@@ -60,7 +62,26 @@
       <p>Lorem ipsum...</p>
     </div>
 
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+
     <p>How would you rate The Body Shop?</p>
+    <div class="rating">
+      <span>☆</span>
+      <span>☆</span>
+      <span>☆</span>
+      <span>☆</span>
+      <span>☆</span>
+    </div>
 
 </body>
 
