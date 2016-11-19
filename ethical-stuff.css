@@ -19,11 +19,17 @@
 
  p {
   color:white;
+  font-size:20px;
  }
 
+.rate {
+  margin-top: 20px;
+}
+
  img {
-  padding: 10px 0 20px 0;
   border-radius: 50px;
+  margin: 10px 0px 40px 0px;
+  border: 7px solid black;
  }
 
  input {
@@ -120,7 +126,9 @@ button.accordion.active:after {
 
 .rating {
   font-size:50px;
+  margin: 50px 0px 0px 0px;
 }
+
   #social-buttons button {
 
 	color: white;
