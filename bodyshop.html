@@ -43,16 +43,52 @@
    </ul>
    </div>
 
-    <p>A website dedicated to helping you live ethically! Check out our links to find out more information, and to transform your lifestyle.</p>
+   <h2>The Body Shop</h2>
 
-<a href="bodyshop.html">Body Shop</a>
+   <div class='col-sm-6'>
+   <img src="bodyshop.jpg" style="width:80%;height:228px";
+   align="left">
+   </div>
 
-   <p>Want to know more about ethical products? Sign up below!</p>
-   
-   <input type="email" placeholder="Your email">
-   <input type="submit">
+<div class='col-sm-6'>
+<div class="rate">
+   <p>How would you rate The Body Shop?</p>
+</div>
+    <div class="rating">
+      <span>☆</span>
+      <span>☆</span>
+      <span>☆</span>
+      <span>☆</span>
+      <span>☆</span>
+    </div>
+    </div>
 
-  </div>
+   <button class="accordion">Animal Testing Policy</button>
+    <div class="panel">
+    <p>Body Shop do not test on animals...</p>
+   </div>
+
+    <button class="accordion">Parent Company</button>
+      <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+
+    <button class="accordion">Extra Info</button>
+      <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
 
 </body>
 
