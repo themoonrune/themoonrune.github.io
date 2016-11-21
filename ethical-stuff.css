@@ -3,27 +3,44 @@
 
  	text-align: center;
  	background-color: #a9d179;
- 	font-family: helvetica;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/68/c4/17/68c41730ab3c0fed5e47f87769fecefb.jpg");
+
+  font-family: helvetica;
+  padding-top: 70px;
 
  }
 
  h1 {
-    text-align: left;
- 	  color: white;
+  font-size: 50px;
+  text-align: center;
+ 	color: white;
+  font-family: 'Rock Salt', cursive;
+  padding-bottom: 30px;
+
  }
 
  h2 {
-    text-align: left;
-    color: white;
+    font-size: 20px;
+    line-height: 30px;
+
  }
 
- p {
-  color:white;
-  font-size:20px;
- }
+ article {
+      color: #d9d9d9;
+      max-width: 1000px;
+      padding: 20px;
+      margin: 0 auto;
+      background-color: rgba(0,0,0,0.55);
+      border-radius: 15px;
+}
+
+
 
 .rate {
   margin-top: 20px;
+  color: white;
+  font-size: 35px;
+  padding-bottom: 0px;
 }
 
  img {
@@ -38,7 +55,7 @@
       font-size: 18px;
     }
     input[type="submit"] {
-      background: green;
+      background: #003311;
       color: white;
   }
 
@@ -48,11 +65,21 @@
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
-   }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 
 li {
-    float: left;
+    border-right: 1px solid #bbb;
 }
+
+li:last-child {
+    border-right: none;
+}
+
 
 li a {
     display: block;
@@ -63,9 +90,10 @@ li a {
 }
 
 li a:hover {
-    background-color: #ccff66;
+    background-color: #e6e6e6;
+    text-decoration: none;
+    color: black;
 }
-
 
 button.accordion {
     background-color: #eee;
@@ -125,8 +153,9 @@ button.accordion.active:after {
 }
 
 .rating {
+  color: yellow;
   font-size:50px;
-  margin: 50px 0px 0px 0px;
+  margin: 25px 0px 0px 0px;
 }
 
   #social-buttons button {
@@ -160,11 +189,20 @@ button.accordion.active:after {
 
 }
 
-.footer {
-  position: bottom;
+.footer1 {
+  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: 10rem;
+  color: white;
+}
+
+.footer2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0rem;
   
 }
