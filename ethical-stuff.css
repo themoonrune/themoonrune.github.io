@@ -34,7 +34,9 @@
       border-radius: 15px;
 }
 
-
+.object data{
+  background: white;
+}
 
 .rate {
   margin-top: 20px;
@@ -57,6 +59,14 @@
     input[type="submit"] {
       background: #003311;
       color: white;
+  }
+
+  p {
+    color: white;
+  }
+
+  h3{
+    color: white;
   }
 
  ul {
@@ -190,7 +200,7 @@ button.accordion.active:after {
 }
 
 .footer1 {
-  position: absolute;
+  position: bottom;
   right: 0;
   bottom: 0;
   left: 0;
@@ -199,7 +209,7 @@ button.accordion.active:after {
 }
 
 .footer2 {
-  position: absolute;
+  position: bottom;
   right: 0;
   bottom: 0;
   left: 0;
