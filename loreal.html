@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <script src="ethical-stuff.js"></script>
+
+  <script src="jquery-3.1.1.min.js"></script>
+  
+  <link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
+  
+  <link rel="stylesheet" type="text/css" href="ethical-stuff.css" media="screen" />
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ethical Living</title>
+
+</head>
+
+
+<body>
+
+	<div class= "container">
+
+ <header>
+   <h1>Ethical Living</h1>
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+  </header>
+
+   <div class='row'>
+   <ul>
+   <div class='col-sm-3'>
+  <li><a href="index.html">Home</a></li>
+  </div>
+  <div class='col-sm-3'>
+  <li><a href="About.html">About</a></li>
+  </div>
+  <div class='col-sm-3'>
+  <li><a href="Resources.html">More resources</a></li>
+  </div>
+  <div class='col-sm-3'>
+  <li><a href="About.html">Contact</a></li>
+  </div>
+   </ul>
+   </div>
+
+   <div class='col-sm-6'>
+   <img src="loreal.jpg" style="width:80%;height:228px";
+   align="left">
+   </div>
+
+<div class='col-sm-6'>
+<div class="rate">
+   <p>How would you rate L’Oréal?</p>
+</div>
+    <div class="rating">
+      <span>☆</span>
+      <span>☆</span>
+      <span>☆</span>
+      <span>☆</span>
+      <span>☆</span>
+    </div>
+    </div>
+
+   <button class="accordion">Animal Testing Policy</button>
+    <div class="panel">
+    <p>'L’Oréal no longer tests on animals any of its products or any of its ingredients, anywhere in the world. Nor does L’Oréal delegate this task to others. An exception could only be made if regulatory authorities demanded it for safety or regulatory purposes.'</p>
+   </div>
+
+    <button class="accordion">Parent Company</button>
+      <div class="panel">
+      <p>The L’Oréal group owns many companies.</p>
+    </div>
+
+    <button class="accordion">Extra Info</button>
+      <div class="panel">
+      <p>L’Oréal sells in China where the regulatory authorities carry out animal tests before products are put on the market.</p>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+
+</body>
+
+<div id='social-buttons', class="footer">
+      <button class='btn-twitter btn-lg'>Twitter</button>
+      <button class='btn-facebook btn-lg'>Facebook</button>
+      <button class='btn-pinterest btn-lg'>Pinterest</button>
+    </div>
+
+</html>
