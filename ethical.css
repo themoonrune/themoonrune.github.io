@@ -61,7 +61,15 @@ p {
     z-index: 3;
     font-family: "Rock Salt";
     background-color: transparent;
-    color: white;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
 }
 
 .btn-danger {
