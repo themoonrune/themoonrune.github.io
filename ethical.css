@@ -1,0 +1,125 @@
+h1, .h1 {
+	font-family: "Rock Salt";
+	padding-top: 60px;
+	padding-bottom: 20px;
+	color: white;
+	text-align: center;
+}
+
+h4, .h4 {
+	font-family: "Raleway";
+}
+
+
+h3, .h3 {
+	font-family: "Raleway";
+}
+
+
+h2, .h2 {
+	font-family: "Rock Salt";
+}
+
+
+h5, .h5 {
+	font-family: "Raleway";
+	font-size: 30px;
+	text-align: center;
+}
+
+h6, .h6 {
+	text-align: center;
+}
+
+p {
+	font-family: "Raleway";
+	font-size: 16px;
+}
+
+ article {
+      color: #d9d9d9;
+      max-width: 1000px;
+      padding: 30px;
+      margin: 0 auto;
+      background-color: rgba(0,0,0,0.55);
+      border-radius: 15px;
+}
+
+.section-dark {
+    background-color: #1a1817;
+    color: #FFFFFF;
+}
+
+.landing-header {
+	padding-bottom: 50px;
+}
+
+.navbar {
+    border: 0;
+    font-size: 16px;
+    padding: 10px;
+    z-index: 3;
+    font-family: "Rock Salt";
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+.btn-danger {
+	background-color: #00cc00;
+	border-color: #00cc00;
+}
+
+.img-circle {
+	height: 150px;
+	width: 150px;
+}
+
+.img-responsive {
+	display: inline-block;
+}
+
+.wrapper {
+	padding-bottom: 50px;
+}
+
+.container {
+	padding-top: 50px
+	padding-bottom: 50px;
+}
+
+.navbar-default {
+	color: white;
+}
+
+.section-dark {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.landing-section {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+}
+
+
+.carousel{
+    background: #248f24;
+    margin-top: 20px;
+    height: 300px;
+    width: 500px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example{
+	margin: 20px;
+}
