@@ -69,42 +69,7 @@
     color: white;
   }
 
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-
-li {
-    border-right: 1px solid #bbb;
-}
-
-li:last-child {
-    border-right: none;
-}
-
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #e6e6e6;
-    text-decoration: none;
-    color: black;
-}
-
+ 
 button.accordion {
     background-color: #eee;
     color: #444;
@@ -122,7 +87,7 @@ button.accordion.active, button.accordion:hover {
 }
 
 div.panel {
-    padding: 0 18px;
+    padding: 18px;
     background-color: rgba(0,0,0,0.55);
     max-height: 0;
     overflow: hidden;

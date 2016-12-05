@@ -1,7 +1,7 @@
 h1, .h1 {
 	font-family: "Rock Salt";
-	padding-top: 60px;
-	padding-bottom: 20px;
+	padding-top: 90px;
+	padding-bottom: 45px;
 	color: white;
 	text-align: center;
 }
@@ -36,13 +36,30 @@ p {
 	font-size: 16px;
 }
 
- article {
+article {
       color: #d9d9d9;
       max-width: 1000px;
       padding: 30px;
       margin: 0 auto;
       background-color: rgba(0,0,0,0.55);
       border-radius: 15px;
+}
+
+.lol {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+
+
+
+.koolz {
+	font-size: 29px;
+}
+
+.oops {
+	font-size: 20px;
 }
 
 .section-dark {
@@ -60,8 +77,7 @@ p {
     padding: 10px;
     z-index: 3;
     font-family: "Rock Salt";
-    background-color: transparent;
-    color: #ffffff;
+    background-color: rgba(0,0,0,0.55);
 }
 
 .navbar-default .navbar-brand {
@@ -110,6 +126,11 @@ p {
 	
 }
 
+
+
+.col-sm-6 {
+	padding-bottom: 20px;
+}
 
 .carousel{
     background: #248f24;
